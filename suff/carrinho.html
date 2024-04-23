@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="carrinho.css">
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+ 
+  </head>
+  <body>
+    <header id="header">
+      <a href="index.html"><img src="img/logo.webp" alt="" class="logo" /></a>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html ">Home</a></li>
+          <li><a href="index.html#sobre">Historia</a></li>
+          <li><a href="index.html#menu">SHOP</a></li>
+          <li><a href="index.html#contato">Contato</a></li>
+        
+        </ul>
+      </nav>
+      <a href="perfil.html"><img src="img/usuario-de-perfil.png" alt="" class="perfil"></a>
+      
+    </header>
+
+    <main>
+      <div class="page-title">Seu Carrinho</div>
+      <div class="content">
+        <section>
+          <table>
+            <thead>
+              <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+                <th>-</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/peita1.webp" alt="" />
+                    <div class="info">
+                      <div class="name">Camiseta SufGang Basic Logo "Off-White"</div>
+                      <div class="category">Camiseta</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 132,90</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>1</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 132,90</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/Novo Projeto (1).png" alt="" />
+                    <div class="info">
+                      <div class="name">Camiseta Sufgang Arabic Script "Black"</div>
+                      <div class="category">Camiseta</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 210,00</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 420,00</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/peita4.png" alt="" />
+                    <div class="info">
+                      <div class="name">Camiseta sufgang basic 1.4 "cinza"</div>
+                      <div class="category">Camiseta</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 220,90</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 441,80</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <aside>
+          <div class="box">
+            
+            <div class="info">
+              <div><span>Sub-total</span><span>R$ 994,70</span></div>
+              <div><span>Frete</span><span>Gratuito</span></div>
+              <div>
+                <button>
+                  Adicionar cupom de desconto
+                  <i class="bx bx-right-arrow-alt"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <span>Total</span>
+              <span>R$ 994,70</span>
+            </footer>
+          </div>
+          <button>Finalizar Compra</button>
+        </aside>
+      </div>
+    </main>
+    <section class="footer">
+      <div class="redes">
+        <a class="facebook"
+          ><img src="img/facebook.png" width="26px" alt=""
+        /></a>
+        <a class="instagram"
+          ><img src="img/instagram.png" width="26px" alt=""
+        /></a>
+        <a class="twitter"
+          ><img src="img/twitter.png" width="26px" alt=""
+        /></a>
+        <a class="linkedin"
+          ><img src="img/linkedin.png" width="26px" alt=""
+        /></a>
+        <a class="pinterest"
+          ><img src="img/pinterest.png" width="26 px" alt=""
+        /></a>
+      </div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="index.html#sobre">Historia</a>
+        <a href="index.html#menu">SHOP</a>
+        <a href="index.html#contato">Contato</a>
+      </div>
+      <div class="credit"><b></b></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
